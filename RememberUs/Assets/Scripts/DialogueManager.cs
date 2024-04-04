@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
   public TextMeshProUGUI dialogueText;
+  public TextMeshProUGUI dialogueName;
+  public Image dialogueImage;
+
   public GameObject dialoguePanel;
   public Button nextDialogButton;
   private Queue<string> sentences;
@@ -23,6 +26,9 @@ public class DialogueManager : MonoBehaviour {
   public void StartDialogue(DialogueSO dialogueSO) {
     sentences.Clear();
     dialoguePanel.SetActive(true);
+
+    dialogueName.text = dialogueSO.speakerName;
+    dialogueImage.sprite = dialogueSO.image;
 
     foreach (string sentence in dialogueSO.sentences) {
       sentences.Enqueue(sentence); // Enqueue all sentences from the dialogue

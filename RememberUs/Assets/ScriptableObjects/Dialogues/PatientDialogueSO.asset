@@ -19,3 +19,5 @@ MonoBehaviour:
   - Uzaaaa !!!
   - :/
   - :(
+  speakerName: Patient
+  image: {fileID: 5701861248234187172, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}

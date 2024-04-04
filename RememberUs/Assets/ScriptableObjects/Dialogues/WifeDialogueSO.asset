@@ -17,3 +17,5 @@ MonoBehaviour:
   - "ne demek yapacak bi\u015Fey yok"
   - "alm\u0131y\u0131m ayam\u0131n alt\u0131na"
   - "sakin ol ge\xE7icek bitanem"
+  speakerName: Wife
+  image: {fileID: 1883349985846945554, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
