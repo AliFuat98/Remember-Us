@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour {
   public GameObject interact;
+  public DialogueSO dialogueSO;
 
   private void Start() {
     interact.SetActive(false);
@@ -12,6 +13,6 @@ public class Interactable : MonoBehaviour {
   }
 
   public void Interact() {
-    Debug.Log("Interacted with " + gameObject.name);
+    FindObjectOfType<DialogueManager>().StartDialogue(dialogueSO);
   }
 }
