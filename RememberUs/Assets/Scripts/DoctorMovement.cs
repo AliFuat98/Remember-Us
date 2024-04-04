@@ -8,6 +8,8 @@ public class DoctorMovement : MonoBehaviour {
   float xInput;
   float yInput;
 
+  public Vector2 lastMoveDirection { get;  private set; } = Vector2.right;
+
   public int FacingDirection { get; private set; } = -1;
   bool facingRight = false;
 
@@ -32,6 +34,11 @@ public class DoctorMovement : MonoBehaviour {
 
   public void SetVelocity() {
     Vector2 moveDirection = new Vector2 (xInput, yInput).normalized;
+
+    // record last direction
+    if (moveDirection != Vector2.zero) {
+      lastMoveDirection = moveDirection;
+    }
 
     rb.velocity = moveDirection * speed;
     FlipController(xInput);
