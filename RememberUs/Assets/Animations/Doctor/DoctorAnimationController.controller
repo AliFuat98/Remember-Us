@@ -58,7 +58,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '#1_Sahne_Hastane_Doctor_1'
+  m_Name: DoctorAnimationController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Move
