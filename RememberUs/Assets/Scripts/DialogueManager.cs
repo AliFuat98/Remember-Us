@@ -14,11 +14,10 @@ public class DialogueManager : MonoBehaviour {
   [SerializeField] private GameObject dialoguePanel;
   [SerializeField] private Button nextDialogButton;
   private Queue<string> sentences;
+  private string currentSentence = string.Empty;
 
   public float typingSpeed = 0.05f;
-
   private bool isTyping = false;
-  private string currentSentence = string.Empty;
 
   private DialogueListSO currentDialogueList;
   private int currentDialogueIndex;
@@ -76,7 +75,6 @@ public class DialogueManager : MonoBehaviour {
     }
 
     currentSentence = sentences.Dequeue();
-    Debug.Log("Displaying sentence: " + currentSentence);
     StopAllCoroutines(); // Stop the currently running typewriter coroutine if any
     StartCoroutine(TypeSentence()); // Start a new typewriter coroutine
   }
