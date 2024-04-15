@@ -2232,12 +2232,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816371719}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77126026, y: 1.0288054, z: 0.019765722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1011837231}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &816371722
 MonoBehaviour:
@@ -2535,8 +2535,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1011837231}
+  - component: {fileID: 1011837232}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: TimeLineController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2554,9 +2555,25 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 816371721}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011837232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011837230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be33d59c639c3043b1593e37c9288f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timelines:
+  - {fileID: 816371720}
+  - {fileID: 816371720}
 --- !u!1001 &1069790014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3456,12 +3473,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461065482}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.68, y: 0.26, z: -0.030417167}
   m_LocalScale: {x: 1, y: 1, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1838093015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1478762952
 GameObject:
@@ -4098,13 +4115,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1896498729}
-  dialogueName: {fileID: 1390944248}
-  dialogueImage: {fileID: 1838500606}
+  dialoguerName: {fileID: 1390944248}
+  dialoguerImage: {fileID: 1838500606}
   dialoguePanel: {fileID: 517997118}
   nextDialogButton: {fileID: 616959919}
-  starterDialogue: {fileID: 11400000, guid: 77d8005e83197664ea1fec66665e1409, type: 2}
   typingSpeed: 0.08
-  currentDialogueList: {fileID: 11400000, guid: 30224afe5ef46df45a6445035d47bcad, type: 2}
 --- !u!4 &1810435234
 Transform:
   m_ObjectHideFlags: 0
@@ -4152,6 +4167,7 @@ Transform:
   - {fileID: 15871716}
   - {fileID: 1748055319}
   - {fileID: 314543891}
+  - {fileID: 1461065485}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1838500604
@@ -4799,5 +4815,3 @@ SceneRoots:
   - {fileID: 980577956}
   - {fileID: 2068646708}
   - {fileID: 1838093015}
-  - {fileID: 816371721}
-  - {fileID: 1461065485}
