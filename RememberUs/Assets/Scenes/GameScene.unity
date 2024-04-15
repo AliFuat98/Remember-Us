@@ -694,7 +694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &314543888
 Rigidbody2D:
   serializedVersion: 4
@@ -4040,6 +4040,7 @@ MonoBehaviour:
   dialogueImage: {fileID: 1838500606}
   dialoguePanel: {fileID: 517997118}
   nextDialogButton: {fileID: 616959919}
+  typingSpeed: 0.1
 --- !u!4 &1810435234
 Transform:
   m_ObjectHideFlags: 0
