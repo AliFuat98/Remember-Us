@@ -13,6 +13,6 @@ public class Interactable : MonoBehaviour {
   }
 
   public void Interact() {
-    FindObjectOfType<DialogueManager>().StartDialogue(dialogueSO);
+    DialogueManager.Instance.StartDialogue(dialogueSO);
   }
 }

@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 037187953dfdae14ba73f17235f06c35, type: 3}
-  m_Name: PatientDialogueSO
+  m_Name: MartaIntroDialogueSO
   m_EditorClassIdentifier: 
   sentences:
-  - "\xD6l\xFCyom laaaan "
-  - "yard\u0131m et bitanem bu doktor beni \xF6ld\xFCrecek."
-  - "Doktar \xF6te de ya\u015Fa!"
-  - Uzaaaa !!!
-  - :/
-  - :(
-  speakerName: Patient
-  image: {fileID: 5701861248234187172, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
+  - "duygusal yaz\u0131lar an\u0131lar 1\r"
+  - "duygusal yaz\u0131lar an\u0131lar 2\r"
+  - "duygusal yaz\u0131lar an\u0131lar 3\r"
+  speakerName: Marta
+  image: {fileID: 4900978611071211088, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}

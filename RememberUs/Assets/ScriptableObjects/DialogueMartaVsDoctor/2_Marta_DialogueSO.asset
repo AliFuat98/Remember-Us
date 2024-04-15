@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 037187953dfdae14ba73f17235f06c35, type: 3}
-  m_Name: WifeDialogueSO
+  m_Name: 2_Marta_DialogueSO
   m_EditorClassIdentifier: 
   sentences:
-  - "ne anlat\u0131on sen doktor"
-  - "ne demek yapacak bi\u015Fey yok"
-  - "alm\u0131y\u0131m ayam\u0131n alt\u0131na"
-  - "sakin ol ge\xE7icek bitanem"
-  speakerName: Wife
-  image: {fileID: 1883349985846945554, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
+  - "marta bir \u015Fey s\xF6yler 4"
+  - "marta bir \u015Fey s\xF6yler 5"
+  speakerName: Marta
+  image: {fileID: 4900978611071211088, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
