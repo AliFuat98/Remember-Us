@@ -25,9 +25,6 @@ public class DialogueManager : MonoBehaviour {
   private DialogueListSO currentDialogueList;
   private int currentDialogueIndex;
 
-  // test
-  public Animator testAnimator;
-
   private void Awake() {
     Instance = this;
 
@@ -56,15 +53,6 @@ public class DialogueManager : MonoBehaviour {
   }
 
   public void StartDialogue(DialogueSO dialogueSO) {
-    // test
-    var x = FindObjectOfType<TypeWriterListenerForAnimation>();
-    if (x != null) {
-      testAnimator = x.GetComponent<Animator>();
-      if (testAnimator != null) {
-        testAnimator.SetTrigger("Speak");
-      }
-    }
-
     sentences.Clear();
     dialoguePanel.SetActive(true);
 
