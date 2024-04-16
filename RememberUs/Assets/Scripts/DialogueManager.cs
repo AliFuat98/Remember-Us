@@ -25,6 +25,9 @@ public class DialogueManager : MonoBehaviour {
   private DialogueListSO currentDialogueList;
   private int currentDialogueIndex;
 
+  // test
+  public Animator testAnimator;
+
   private void Awake() {
     Instance = this;
 
@@ -53,11 +56,29 @@ public class DialogueManager : MonoBehaviour {
   }
 
   public void StartDialogue(DialogueSO dialogueSO) {
+    // test
+    var x = FindObjectOfType<TypeWriterListenerForAnimation>();
+    if (x != null) {
+      testAnimator = x.GetComponent<Animator>();
+      if (testAnimator != null) {
+        testAnimator.SetTrigger("Speak");
+      }
+    }
+
     sentences.Clear();
     dialoguePanel.SetActive(true);
 
     dialoguerName.text = dialogueSO.speakerName;
-    dialoguerImage.sprite = dialogueSO.image;
+
+    if (dialogueSO.image != null) {
+      dialoguerImage.sprite = dialogueSO.image;
+      // Set image to fully opaque
+      dialoguerImage.color = new Color(dialoguerImage.color.r, dialoguerImage.color.g, dialoguerImage.color.b, 1f);
+    } else {
+      dialoguerImage.sprite = null;
+      // Set image to fully transparent
+      dialoguerImage.color = new Color(dialoguerImage.color.r, dialoguerImage.color.g, dialoguerImage.color.b, 0f);
+    }
 
     foreach (string sentence in dialogueSO.sentences) {
       sentences.Enqueue(sentence); // Enqueue all sentences from the dialogue

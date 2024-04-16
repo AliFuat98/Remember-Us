@@ -2411,7 +2411,7 @@ RectTransform:
   m_Children:
   - {fileID: 517997119}
   - {fileID: 767469156}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1810435234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4208,6 +4208,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 517997118}
   nextDialogButton: {fileID: 616959919}
   typingSpeed: 0.08
+  testAnimator: {fileID: 0}
 --- !u!4 &1810435234
 Transform:
   m_ObjectHideFlags: 0
@@ -4220,7 +4221,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 980577956}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1838093014
@@ -4935,6 +4937,5 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 627149619}
   - {fileID: 2079697768}
-  - {fileID: 980577956}
   - {fileID: 2068646708}
   - {fileID: 1838093015}
