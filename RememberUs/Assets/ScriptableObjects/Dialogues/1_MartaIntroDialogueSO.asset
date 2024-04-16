@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 037187953dfdae14ba73f17235f06c35, type: 3}
-  m_Name: MartaIntroDialogueSO
+  m_Name: 1_MartaIntroDialogueSO
   m_EditorClassIdentifier: 
   sentences:
   - "duygusal yaz\u0131lar an\u0131lar 1\r"

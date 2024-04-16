@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,6 +7,8 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
   public static DialogueManager Instance;
+
+  public event EventHandler OnDialogueComplete;
 
   [SerializeField] private TextMeshProUGUI dialogueText;
   [SerializeField] private TextMeshProUGUI dialoguerName;
@@ -98,5 +101,6 @@ public class DialogueManager : MonoBehaviour {
 
   void EndDialogue() {
     dialoguePanel.SetActive(false);
+    OnDialogueComplete?.Invoke(this, EventArgs.Empty);
   }
 }
