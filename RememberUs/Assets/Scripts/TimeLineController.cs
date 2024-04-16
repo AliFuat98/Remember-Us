@@ -1,39 +1,28 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-using System.Collections.Generic;
 
 public class TimelineController : MonoBehaviour {
+  public static TimelineController Instance { get; private set; }
+
   public List<PlayableDirector> timelines; // List of all Timelines
   private int currentIndex = 0; // Index to track the current timeline
   private bool isPaused = false;
 
-  private void Start() {
-    // Subscribe to the stopped event for each timeline
-    foreach (var timeline in timelines) {
-      timeline.stopped += OnTimelineStopped;
-    }
-
-    // Start the first timeline if any exist
-    if (timelines.Count > 0) {
-      PlayTimeline(currentIndex);
-    }
+  private void Awake() {
+    Instance = this;
   }
 
-  private void PlayTimeline(int index) {
-    if (index < timelines.Count) {
-      timelines[index].Play();
+  public PlayableDirector PlayTimeline() {
+    if (currentIndex < timelines.Count) {
       isPaused = false;
-    }
-  }
-
-  private void OnTimelineStopped(PlayableDirector director) {
-
-    if (currentIndex < timelines.Count - 1) {
+      timelines[currentIndex].Play();
       currentIndex++;
-      PlayTimeline(currentIndex);
+      return timelines[currentIndex-1];
     }
+    Debug.LogError("Check timeline count and timeline action scriptable objects. They must be match");
+    return null;
   }
-
 
   public void PauseTimeline() {
     if (currentIndex < timelines.Count) {
@@ -42,27 +31,10 @@ public class TimelineController : MonoBehaviour {
     }
   }
 
-  // Resume the currently paused timeline
   public void ResumeTimeline() {
     if (isPaused && currentIndex < timelines.Count) {
       timelines[currentIndex].Resume();
       isPaused = false;
-    }
-  }
-
-  private void OnDestroy() {
-    foreach (var timeline in timelines) {
-      timeline.stopped -= OnTimelineStopped;
-    }
-  }
-
-  private void Update() {
-    if (Input.GetKeyDown(KeyCode.P)) {
-      PauseTimeline();
-    }
-
-    if (Input.GetKeyDown(KeyCode.R)) {
-      ResumeTimeline();
     }
   }
 }

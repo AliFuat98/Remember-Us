@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
-  public static DialogueManager Instance;
+  public static DialogueManager Instance { get; private set; }
 
   public event EventHandler OnDialogueComplete;
 

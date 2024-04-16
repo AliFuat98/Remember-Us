@@ -2189,9 +2189,8 @@ GameObject:
   m_Component:
   - component: {fileID: 816371721}
   - component: {fileID: 816371720}
-  - component: {fileID: 816371722}
   m_Layer: 0
-  m_Name: TimeLineDoctorWalk
+  m_Name: DoctorWalkIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2216,9 +2215,9 @@ PlayableDirector:
     value: {fileID: 1461065483}
   - key: {fileID: 4250818727381703118, guid: f7b17d191a128d14299d35bdbc29de41, type: 2}
     value: {fileID: 1461065483}
-  - key: {fileID: 4348028398749044808, guid: f7b17d191a128d14299d35bdbc29de41, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 767469157}
-  - key: {fileID: -1168368388429618379, guid: f7b17d191a128d14299d35bdbc29de41, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 767469153}
   - key: {fileID: 4852282965826937871, guid: f7b17d191a128d14299d35bdbc29de41, type: 2}
     value: {fileID: 1461065482}
@@ -2239,36 +2238,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1011837231}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &816371722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816371719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: 50f7c736b2fbb6e4cb69d48872e8412f, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 816371719}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &895699236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,6 +2526,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 816371721}
+  - {fileID: 1349722017}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1011837232
@@ -2571,7 +2541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0be33d59c639c3043b1593e37c9288f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timelines: []
+  timelines:
+  - {fileID: 816371720}
+  - {fileID: 1349722018}
 --- !u!1001 &1069790014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2971,6 +2943,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329191682}
   m_CullTransparentMesh: 1
+--- !u!1 &1349722016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349722017}
+  - component: {fileID: 1349722018}
+  m_Layer: 0
+  m_Name: DoctorWalkOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349722017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349722016}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1011837231}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1349722018
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349722016}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 9c431f1a79dc4c54ab36d4fcbf8e082d, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -7036899498500790985, guid: 9c431f1a79dc4c54ab36d4fcbf8e082d, type: 2}
+    value: {fileID: 1461065483}
+  - key: {fileID: 5168605166523407584, guid: 9c431f1a79dc4c54ab36d4fcbf8e082d, type: 2}
+    value: {fileID: 1461065483}
+  - key: {fileID: 1649783591769871910, guid: 9c431f1a79dc4c54ab36d4fcbf8e082d, type: 2}
+    value: {fileID: 1461065482}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1381915741
 GameObject:
   m_ObjectHideFlags: 0
