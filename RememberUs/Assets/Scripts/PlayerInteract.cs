@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DoctorInteract : MonoBehaviour {
+public class PlayerInteract : MonoBehaviour {
   public Transform interactPoint;
   public float interactRange = 5f;
   public LayerMask interactableLayer;
