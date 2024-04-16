@@ -1159,7 +1159,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 398478783705012094, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: fadeOut
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 398478783705012094, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
+      propertyPath: transitionTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 398478783705012094, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
+      propertyPath: fadeOutTransitionTime
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957509646435956247, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_Name
@@ -1167,15 +1175,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681039850145408104, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1188.2557
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7681039850145408104, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 533.94037
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7681039850145408104, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.621129
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7681039850145408104, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_LocalRotation.w

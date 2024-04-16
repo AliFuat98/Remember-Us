@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6515e80dd923fe9438fc6edf5541a7a5, type: 3}
-  m_Name: 1_HospitalDialogueActionListSO
+  m_Name: -1_HospitalDialogueActionListSO
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11400000, guid: 24fe3a07bb1899f47accfc7d3bf34afb, type: 2}
@@ -18,3 +18,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3144085ff2862254d996c0af267ae51a, type: 2}
   - {fileID: 11400000, guid: 2c7a4a0a3de4bc04099eca179101b38f, type: 2}
   - {fileID: 11400000, guid: fa4a116e609ee6b419d50e1047f99b09, type: 2}
+  - {fileID: 11400000, guid: 3d95321b0c4281240bf3c72b772e5de0, type: 2}
