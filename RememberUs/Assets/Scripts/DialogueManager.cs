@@ -20,7 +20,32 @@ public class DialogueManager : MonoBehaviour {
   private string currentSentence = string.Empty;
 
   public float typingSpeed = 0.05f;
+
+  #region IS TYPING
+
+  public event EventHandler<OnTypingChangedEventArgs> OnTypingChanged;
+
+  public class OnTypingChangedEventArgs {
+    public bool IsNowTyping;
+  }
+
   private bool isTyping = false;
+
+  public bool IsTyping {
+    get { return isTyping; }
+    set {
+      if (isTyping != value) {
+        isTyping = value;
+
+        // trigger event
+        OnTypingChanged?.Invoke(this, new OnTypingChangedEventArgs {
+          IsNowTyping = value
+        });
+      }
+    }
+  }
+
+  #endregion IS TYPING
 
   private DialogueListSO currentDialogueList;
   private int currentDialogueIndex;
@@ -31,7 +56,7 @@ public class DialogueManager : MonoBehaviour {
     DontDestroyOnLoad(gameObject);
 
     nextDialogButton.onClick.AddListener(() => {
-      if (isTyping) {
+      if (IsTyping) {
         // get result imidiately
         DisplayCompleteCurrentSentence();
       } else {
@@ -44,6 +69,12 @@ public class DialogueManager : MonoBehaviour {
     sentences = new Queue<string>();
 
     dialoguePanel.SetActive(false);
+  }
+
+  private void DisplayCompleteCurrentSentence() {
+    StopAllCoroutines();
+    dialogueText.text = currentSentence;
+    IsTyping = false;
   }
 
   public void StartDialogueList(DialogueListSO dialogueList) {
@@ -91,21 +122,15 @@ public class DialogueManager : MonoBehaviour {
     StartCoroutine(TypeSentence()); // Start a new typewriter coroutine
   }
 
-  private void DisplayCompleteCurrentSentence() {
-    StopAllCoroutines();
-    dialogueText.text = currentSentence;
-    isTyping = false;
-  }
-
   IEnumerator TypeSentence() {
-    isTyping = true;
+    IsTyping = true;
     dialogueText.text = "";
     foreach (char letter in currentSentence.ToCharArray()) {
       dialogueText.text += letter;
       yield return new WaitForSeconds(typingSpeed); // Wait for some time after each character
     }
 
-    isTyping = false;
+    IsTyping = false;
   }
 
   void EndDialogue() {
