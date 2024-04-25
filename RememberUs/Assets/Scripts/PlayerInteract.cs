@@ -4,7 +4,7 @@ public class PlayerInteract : MonoBehaviour {
   public Transform interactPoint;
   public float interactRange = 5f;
   public LayerMask interactableLayer;
-  DoctorMovement doctorMovement;
+  PlayerMovement doctorMovement;
 
   private Interactable xLastInteractable;
 
@@ -29,7 +29,7 @@ public class PlayerInteract : MonoBehaviour {
   }
 
   private void Start() {
-    doctorMovement = GetComponent<DoctorMovement>();
+    doctorMovement = GetComponent<PlayerMovement>();
   }
 
   void Update() {

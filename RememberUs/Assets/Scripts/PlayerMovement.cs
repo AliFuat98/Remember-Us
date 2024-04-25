@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DoctorMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
   Animator animator;
   Rigidbody2D rb;
 
@@ -8,7 +8,7 @@ public class DoctorMovement : MonoBehaviour {
   float xInput;
   float yInput;
 
-  public Vector2 lastMoveDirection { get;  private set; } = Vector2.right;
+  public Vector2 lastMoveDirection { get; private set; } = Vector2.right;
 
   public int FacingDirection { get; private set; } = -1;
   bool facingRight = false;
@@ -22,7 +22,13 @@ public class DoctorMovement : MonoBehaviour {
     xInput = Input.GetAxisRaw("Horizontal");
     yInput = Input.GetAxisRaw("Vertical");
     animator.SetBool("Move", IsMoving());
+
+    if (IsMoving()) {
+      animator.SetFloat("xInput", xInput);
+      animator.SetFloat("yInput", yInput);
+    }
   }
+
   bool IsMoving() {
     return !(xInput == 0 && yInput == 0);
   }
@@ -31,9 +37,8 @@ public class DoctorMovement : MonoBehaviour {
     SetVelocity();
   }
 
-
   public void SetVelocity() {
-    Vector2 moveDirection = new Vector2 (xInput, yInput).normalized;
+    Vector2 moveDirection = new Vector2(xInput, yInput).normalized;
 
     // record last direction
     if (moveDirection != Vector2.zero) {
@@ -41,7 +46,7 @@ public class DoctorMovement : MonoBehaviour {
     }
 
     rb.velocity = moveDirection * speed;
-    FlipController(xInput);
+    //FlipController(xInput);
   }
 
   public void SetZeroVelocity() {
@@ -61,5 +66,4 @@ public class DoctorMovement : MonoBehaviour {
     facingRight = !facingRight;
     transform.Rotate(0, 180, 0);
   }
-
 }
