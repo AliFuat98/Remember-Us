@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CloseUpHospital2.unity
     guid: bc382d4bb13fc0243ab7b0bd7d7361ae
+  - enabled: 1
+    path: Assets/Scenes/Labirent3.unity
+    guid: a518b18850f857e459777b6d67b0000a
   m_configObjects: {}

@@ -6,7 +6,7 @@ public class CutsceneController : MonoBehaviour {
 
   private void Start() {
     if (cutsceneActionListSO == null) {
-      Debug.LogError("assign a cutscene action list SO");
+      Debug.Log("assign a cutscene action list SO");
       return;
     }
 
