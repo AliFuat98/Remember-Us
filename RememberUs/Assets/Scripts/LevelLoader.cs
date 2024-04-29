@@ -21,6 +21,11 @@ public class LevelLoader : MonoBehaviour {
   }
 
   public void LoadNextLevel() {
+    if (SceneManager.sceneCount <= SceneManager.GetActiveScene().buildIndex + 1) {
+      Debug.Log("last level");
+      return;
+    }
+
     StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
   }
 
