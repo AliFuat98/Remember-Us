@@ -473,6 +473,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 398478783705012094, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
+      propertyPath: endOfSceneActionSO
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5957509646435956247, guid: afbf0cf50c012084db93579a46f9b729, type: 3}
       propertyPath: m_Name
       value: LevelLoader
