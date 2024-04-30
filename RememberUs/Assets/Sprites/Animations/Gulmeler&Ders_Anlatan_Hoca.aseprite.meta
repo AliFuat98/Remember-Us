@@ -1,0 +1,1480 @@
+fileFormatVersion: 2
+guid: d4d07a079c4edc4469d4a45736c46713
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_0
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 328
+      width: 105
+      height: 73
+    spriteID: 85d2c67fc3983eb4f972ecaca3973287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 328}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_1
+    originalName: 
+    pivot: {x: 0.6839623, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 247
+      width: 106
+      height: 73
+    spriteID: fe267fd9679570c4fa018a3f1a719fb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 247}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_2
+    originalName: 
+    pivot: {x: 0.6805556, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 85
+      width: 108
+      height: 73
+    spriteID: 7badca3821692ea41ace96f6464e3f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 85}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_3
+    originalName: 
+    pivot: {x: 0.67431194, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 4
+      width: 109
+      height: 73
+    spriteID: 97415fcefe6fe064290604f9f7a2d655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 4}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_4
+    originalName: 
+    pivot: {x: 0.6869159, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 166
+      width: 107
+      height: 73
+    spriteID: 52cc0a0c46d7489449d1dad0d3819068
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 166}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_5
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 110
+      height: 73
+    spriteID: 4906a861798175b44b7ebdaedb973d4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_6
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 85
+      width: 110
+      height: 73
+    spriteID: 6299380066e362246a57bef38c20a66c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 85}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_7
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 110
+      height: 73
+    spriteID: d002bdd0fa1d7624b9ac3a5a2ead6c98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_8
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 247
+      width: 110
+      height: 73
+    spriteID: 2b7544ea73b3ecb4fb797d0890e4ce30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 247}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_9
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 328
+      width: 110
+      height: 73
+    spriteID: 492b78e29dfc04c4ea0ddd49f2b7cfdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 328}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_10
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 409
+      width: 110
+      height: 73
+    spriteID: b9dd9dd919fb86744a4bf87333c5a64c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 409}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_11
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 490
+      width: 110
+      height: 73
+    spriteID: 01ee70f198fe04848a96c95029dccaeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 490}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_12
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 571
+      width: 110
+      height: 73
+    spriteID: b018d562f79e139469817f5434da1eb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 571}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_13
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 652
+      width: 110
+      height: 73
+    spriteID: 8a876b168a78e9b4e8beac4e7165d729
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 652}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_14
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 733
+      width: 110
+      height: 73
+    spriteID: 8162699ad7e0698488f7972378ab81ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 733}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_15
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 814
+      width: 110
+      height: 73
+    spriteID: fc0abed59f045d043be6139babc2aa27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 814}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_16
+    originalName: 
+    pivot: {x: 0.69545454, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 895
+      width: 110
+      height: 73
+    spriteID: 5df0e975211ccd940b496c308d4f0cf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 895}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_17
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 409
+      width: 105
+      height: 73
+    spriteID: bfcbbca959b23a442af122ae7cb282fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 409}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_18
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 490
+      width: 105
+      height: 73
+    spriteID: d50fcad1527468c4b9bc865af254184b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 490}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_19
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 571
+      width: 105
+      height: 73
+    spriteID: 543c34935b532ac4aa7998ddd58588f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 571}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_20
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 652
+      width: 105
+      height: 73
+    spriteID: 8ca8858c1be6f2647826f94ad1262bbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 652}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_21
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 733
+      width: 105
+      height: 73
+    spriteID: 7bba555a8d62c1740a3c80d58c53c4ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 733}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_22
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 814
+      width: 105
+      height: 73
+    spriteID: 40e8f048ccedde145ae1b81540e35296
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 814}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_23
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 895
+      width: 105
+      height: 73
+    spriteID: 1d72e92d819f5d34382ea2de46d29676
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 895}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_24
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 4
+      width: 105
+      height: 73
+    spriteID: 0f55f1c6a79a2804ea980906fc16a970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 4}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_25
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 85
+      width: 105
+      height: 73
+    spriteID: d9b25efaaac286b4e9cec5b252c8e035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 85}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_26
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 166
+      width: 105
+      height: 73
+    spriteID: 0a460fcfdfc4d4a4eb8e503100895acb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 166}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_27
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 247
+      width: 105
+      height: 73
+    spriteID: 076a153580e2e8e4bab8cf2920c59f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 247}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_28
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 328
+      width: 105
+      height: 73
+    spriteID: 621aad3e1d2ff124a841816d0d459fe2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 328}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_29
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 409
+      width: 105
+      height: 73
+    spriteID: ca8bc6983de791744b2c76f32119928f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 409}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_30
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 490
+      width: 105
+      height: 73
+    spriteID: 2910876e5028bcd4dbc67d365df18cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 490}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_31
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 571
+      width: 105
+      height: 73
+    spriteID: ba093c0e5f1c3cb4bbc11c0452f5db9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 571}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_32
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 652
+      width: 105
+      height: 73
+    spriteID: dabd59c47c070f84297205f27542b51c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 652}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_33
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 733
+      width: 105
+      height: 73
+    spriteID: 2bd9fe4bdd8144a489fbfa1e69c31643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 733}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_34
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 814
+      width: 105
+      height: 73
+    spriteID: 1874a4d1b9e94954ca0bfcc5fe32c39a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 814}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_35
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 895
+      width: 105
+      height: 73
+    spriteID: c0e7a8a1fe90d094298eeb7163b248e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 895}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_36
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 4
+      width: 105
+      height: 73
+    spriteID: 3c190fcdb89f29740a45d55c2425c2ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 4}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_37
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 85
+      width: 105
+      height: 73
+    spriteID: b06b0c2d048361f4bb9647c012dec6dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 85}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_38
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 166
+      width: 105
+      height: 73
+    spriteID: 435705c83e66e6246a3c7f2631042dd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 166}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_39
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 247
+      width: 105
+      height: 73
+    spriteID: e52272d2c6b86c14fa6c85e2af1765f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 247}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_40
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 328
+      width: 105
+      height: 73
+    spriteID: ea1bd10b43e9bb3499bc7f1c0ff2aaea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 328}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_41
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 409
+      width: 105
+      height: 73
+    spriteID: 22c62d7d557730a418e0585812a4008d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 409}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_42
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 490
+      width: 105
+      height: 73
+    spriteID: 58cfc444f1105494ab6ac00c7d23a387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 490}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_43
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 571
+      width: 105
+      height: 73
+    spriteID: e92f07d27f384b64cb8aa2ae60eb3ea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 571}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_44
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 652
+      width: 105
+      height: 73
+    spriteID: 175cd1315d6810e40ada50e9d10b9027
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 652}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_45
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 733
+      width: 105
+      height: 73
+    spriteID: 75c60608a59ca534b90ee809b5f07176
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 733}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_46
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 814
+      width: 105
+      height: 73
+    spriteID: a4fb8f31e1858844c8c3a45b755c0129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 814}
+  - name: Gulmeler&Ders_Anlatan_Hoca_Frame_47
+    originalName: 
+    pivot: {x: 0.6809523, y: -0.56164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 895
+      width: 105
+      height: 73
+    spriteID: f39f463ea3a0e644997d9966f3093a4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 895}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1389658289
+    name: Gulmeler&Ders_Anlatan_Hoca
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 85d2c67fc3983eb4f972ecaca3973287
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 41
+        width: 106
+        height: 73
+      spriteId: fe267fd9679570c4fa018a3f1a719fb1
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 41
+        width: 108
+        height: 73
+      spriteId: 7badca3821692ea41ace96f6464e3f58
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 19
+        y: 41
+        width: 109
+        height: 73
+      spriteId: 97415fcefe6fe064290604f9f7a2d655
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 41
+        width: 107
+        height: 73
+      spriteId: 52cc0a0c46d7489449d1dad0d3819068
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 4906a861798175b44b7ebdaedb973d4b
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 6299380066e362246a57bef38c20a66c
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: d002bdd0fa1d7624b9ac3a5a2ead6c98
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 2b7544ea73b3ecb4fb797d0890e4ce30
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 492b78e29dfc04c4ea0ddd49f2b7cfdf
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: b9dd9dd919fb86744a4bf87333c5a64c
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 01ee70f198fe04848a96c95029dccaeb
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: b018d562f79e139469817f5434da1eb1
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 8a876b168a78e9b4e8beac4e7165d729
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 8162699ad7e0698488f7972378ab81ff
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: fc0abed59f045d043be6139babc2aa27
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 16
+        y: 41
+        width: 110
+        height: 73
+      spriteId: 5df0e975211ccd940b496c308d4f0cf4
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: bfcbbca959b23a442af122ae7cb282fa
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: d50fcad1527468c4b9bc865af254184b
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 543c34935b532ac4aa7998ddd58588f3
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 8ca8858c1be6f2647826f94ad1262bbf
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 7bba555a8d62c1740a3c80d58c53c4ec
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 40e8f048ccedde145ae1b81540e35296
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 1d72e92d819f5d34382ea2de46d29676
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 0f55f1c6a79a2804ea980906fc16a970
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: d9b25efaaac286b4e9cec5b252c8e035
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 0a460fcfdfc4d4a4eb8e503100895acb
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 076a153580e2e8e4bab8cf2920c59f58
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 621aad3e1d2ff124a841816d0d459fe2
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: ca8bc6983de791744b2c76f32119928f
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 2910876e5028bcd4dbc67d365df18cda
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: ba093c0e5f1c3cb4bbc11c0452f5db9c
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: dabd59c47c070f84297205f27542b51c
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 2bd9fe4bdd8144a489fbfa1e69c31643
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 1874a4d1b9e94954ca0bfcc5fe32c39a
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: c0e7a8a1fe90d094298eeb7163b248e8
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 3c190fcdb89f29740a45d55c2425c2ef
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: b06b0c2d048361f4bb9647c012dec6dc
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 435705c83e66e6246a3c7f2631042dd0
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: e52272d2c6b86c14fa6c85e2af1765f2
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: ea1bd10b43e9bb3499bc7f1c0ff2aaea
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 22c62d7d557730a418e0585812a4008d
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 58cfc444f1105494ab6ac00c7d23a387
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: e92f07d27f384b64cb8aa2ae60eb3ea5
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 175cd1315d6810e40ada50e9d10b9027
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: 75c60608a59ca534b90ee809b5f07176
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: a4fb8f31e1858844c8c3a45b755c0129
+    - name: Gulmeler&Ders_Anlatan_Hoca_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 21
+        y: 41
+        width: 105
+        height: 73
+      spriteId: f39f463ea3a0e644997d9966f3093a4d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 185, y: 185}

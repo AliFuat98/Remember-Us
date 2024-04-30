@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 228677d64c5160a45be4430ceeea8632
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dusme&Butun_Yaslar_Frame_0
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 500
+      width: 237
+      height: 240
+    spriteID: 5acda022d1f7e584fb6e07fc55f1edb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 500}
+  - name: Dusme&Butun_Yaslar_Frame_1
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 748
+      width: 237
+      height: 240
+    spriteID: 6b055c1c69b2efb4caa43b2acb9356fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 748}
+  - name: Dusme&Butun_Yaslar_Frame_2
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 996
+      width: 237
+      height: 240
+    spriteID: b628cdc83aae9734a81f67508cf81a36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 996}
+  - name: Dusme&Butun_Yaslar_Frame_3
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1244
+      width: 237
+      height: 240
+    spriteID: 2c18579613ac4c943aa46c4e31ed2d89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1244}
+  - name: Dusme&Butun_Yaslar_Frame_4
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1492
+      width: 237
+      height: 240
+    spriteID: 0a0db1af0564baf4487b4046a44e8902
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1492}
+  - name: Dusme&Butun_Yaslar_Frame_5
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1740
+      width: 237
+      height: 240
+    spriteID: b45c706614ea80847911cd47f3c8127c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1740}
+  - name: Dusme&Butun_Yaslar_Frame_6
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1988
+      width: 237
+      height: 240
+    spriteID: 1f18b1bc23b61cc4ea2a42c4d25fb547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1988}
+  - name: Dusme&Butun_Yaslar_Frame_7
+    originalName: 
+    pivot: {x: 0.3580247, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 252
+      width: 243
+      height: 240
+    spriteID: d2021e1bd3f8fe04face532e8f476963
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 252}
+  - name: Dusme&Butun_Yaslar_Frame_8
+    originalName: 
+    pivot: {x: 0.36326534, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 245
+      height: 240
+    spriteID: 9c29287d8913ac64986b20aed241481e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dusme&Butun_Yaslar_Frame_9
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2236
+      width: 237
+      height: 240
+    spriteID: f8fe57c989e40b449a9e2e359ba69f62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2236}
+  - name: Dusme&Butun_Yaslar_Frame_10
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2484
+      width: 237
+      height: 240
+    spriteID: 3579308597b67d040ae4e2af95cac6d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2484}
+  - name: Dusme&Butun_Yaslar_Frame_11
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2732
+      width: 237
+      height: 240
+    spriteID: add8948dfbb30914b86aebdc59e3ee2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2732}
+  - name: Dusme&Butun_Yaslar_Frame_12
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2980
+      width: 237
+      height: 240
+    spriteID: 04a11cac7c3a81a48935cf3a8a0c30bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2980}
+  - name: Dusme&Butun_Yaslar_Frame_13
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3228
+      width: 237
+      height: 240
+    spriteID: 2594f6e281705ea4b8bd17fb94f275b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3228}
+  - name: Dusme&Butun_Yaslar_Frame_14
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3476
+      width: 237
+      height: 240
+    spriteID: 4b9d9083e03b08e449da0e2e2b279188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3476}
+  - name: Dusme&Butun_Yaslar_Frame_15
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3724
+      width: 237
+      height: 240
+    spriteID: 03999ecff8f753945a5f2b3f55c90660
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3724}
+  - name: Dusme&Butun_Yaslar_Frame_16
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 4
+      width: 237
+      height: 240
+    spriteID: 00d793da97929134ba961cd4d33c2159
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 4}
+  - name: Dusme&Butun_Yaslar_Frame_17
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 252
+      width: 237
+      height: 240
+    spriteID: 6b8b8a00d7d52314ea7cb4e20a9b1af5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 252}
+  - name: Dusme&Butun_Yaslar_Frame_18
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 500
+      width: 237
+      height: 240
+    spriteID: db9ef0ae2ad5bd3419504181b1b80129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 500}
+  - name: Dusme&Butun_Yaslar_Frame_19
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 748
+      width: 237
+      height: 240
+    spriteID: 4eb1060f37b2bc247b390128a91402a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 748}
+  - name: Dusme&Butun_Yaslar_Frame_20
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 996
+      width: 237
+      height: 240
+    spriteID: 4c0585eb158346b419974b9d9f6e01f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 996}
+  - name: Dusme&Butun_Yaslar_Frame_21
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 1244
+      width: 237
+      height: 240
+    spriteID: 222355d7820a0a74fbffc66cc29dbc28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 1244}
+  - name: Dusme&Butun_Yaslar_Frame_22
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 1492
+      width: 237
+      height: 240
+    spriteID: a92c45f0ae43fed4c974fac4269971a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 1492}
+  - name: Dusme&Butun_Yaslar_Frame_23
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 1740
+      width: 237
+      height: 240
+    spriteID: 97a50cf2b3bc92443be7db5214166316
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 1740}
+  - name: Dusme&Butun_Yaslar_Frame_24
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 1988
+      width: 237
+      height: 240
+    spriteID: 3d08e6c2561d3e5408d185e92297f9fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 1988}
+  - name: Dusme&Butun_Yaslar_Frame_25
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 2236
+      width: 237
+      height: 240
+    spriteID: 85b960c6d81b75a46b354da3b211f122
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 2236}
+  - name: Dusme&Butun_Yaslar_Frame_26
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 2484
+      width: 237
+      height: 240
+    spriteID: 1e1ec23af5e5a26499e65c78e420fffc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 2484}
+  - name: Dusme&Butun_Yaslar_Frame_27
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 2732
+      width: 237
+      height: 240
+    spriteID: c9f9dca35a26ecf45bc3313d6972d58e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 2732}
+  - name: Dusme&Butun_Yaslar_Frame_28
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 2980
+      width: 237
+      height: 240
+    spriteID: b4939a97bf4fd90438f236380acac83c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 2980}
+  - name: Dusme&Butun_Yaslar_Frame_29
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 3228
+      width: 237
+      height: 240
+    spriteID: 644f62c314eb06b4ab7af93a60b5933a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 3228}
+  - name: Dusme&Butun_Yaslar_Frame_30
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 3476
+      width: 237
+      height: 240
+    spriteID: a0b847fd525ae9b4dae1df11b55278a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 3476}
+  - name: Dusme&Butun_Yaslar_Frame_31
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 257
+      y: 3724
+      width: 237
+      height: 240
+    spriteID: 807760ac96dfc5844b74d51f4770cce2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 257, y: 3724}
+  - name: Dusme&Butun_Yaslar_Frame_32
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 4
+      width: 237
+      height: 240
+    spriteID: eedb8ddf23bb63a46bb6f682fea8a15e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 4}
+  - name: Dusme&Butun_Yaslar_Frame_33
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 252
+      width: 237
+      height: 240
+    spriteID: d36e22985907af746a2c8091ca21a98d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 252}
+  - name: Dusme&Butun_Yaslar_Frame_34
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 500
+      width: 237
+      height: 240
+    spriteID: 777c90fc24364874dbedc7471a059c12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 500}
+  - name: Dusme&Butun_Yaslar_Frame_35
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 748
+      width: 237
+      height: 240
+    spriteID: 8114ba0becd69894a848b107570d9bae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 748}
+  - name: Dusme&Butun_Yaslar_Frame_36
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 996
+      width: 237
+      height: 240
+    spriteID: d6be1a9e1db3e98419405b95615665ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 996}
+  - name: Dusme&Butun_Yaslar_Frame_37
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 1244
+      width: 237
+      height: 240
+    spriteID: feb1371e90ba1404581b94cae8a21d36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 1244}
+  - name: Dusme&Butun_Yaslar_Frame_38
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 1492
+      width: 237
+      height: 240
+    spriteID: 493dd5bf6d2ed184d8a225558d0c5f4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 1492}
+  - name: Dusme&Butun_Yaslar_Frame_39
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 1740
+      width: 237
+      height: 240
+    spriteID: 895c88026da50374e95073da35e305f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 1740}
+  - name: Dusme&Butun_Yaslar_Frame_40
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 1988
+      width: 237
+      height: 240
+    spriteID: 72a9f665d5c4c1e43ad063e8c1b3b59a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 1988}
+  - name: Dusme&Butun_Yaslar_Frame_41
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 2236
+      width: 237
+      height: 240
+    spriteID: 09244b4d71b5a1f4f810bc4ef6b659bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 2236}
+  - name: Dusme&Butun_Yaslar_Frame_42
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 2484
+      width: 237
+      height: 240
+    spriteID: eae2ac5f39b5d874fa2231125f0577ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 2484}
+  - name: Dusme&Butun_Yaslar_Frame_43
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 2732
+      width: 237
+      height: 240
+    spriteID: f7588c5b3a45ee94ba4b6eb79ab68462
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 2732}
+  - name: Dusme&Butun_Yaslar_Frame_44
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 2980
+      width: 237
+      height: 240
+    spriteID: c8a5b1e39f756b54885487ccdf6c1360
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 2980}
+  - name: Dusme&Butun_Yaslar_Frame_45
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 3228
+      width: 237
+      height: 240
+    spriteID: 936e256c4b539fc4b9443040ef6bec5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 3228}
+  - name: Dusme&Butun_Yaslar_Frame_46
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 3476
+      width: 237
+      height: 240
+    spriteID: ef909fea8d2d3a04d99b588dcd589338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 3476}
+  - name: Dusme&Butun_Yaslar_Frame_47
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 502
+      y: 3724
+      width: 237
+      height: 240
+    spriteID: 806dd75cde0f953488e77b83b7dafb08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 502, y: 3724}
+  - name: Dusme&Butun_Yaslar_Frame_48
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 4
+      width: 237
+      height: 240
+    spriteID: 33279b917e7cc6b40868066a999510d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 4}
+  - name: Dusme&Butun_Yaslar_Frame_49
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 252
+      width: 237
+      height: 240
+    spriteID: a2c46699ce674fd4cbfef73293d37412
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 252}
+  - name: Dusme&Butun_Yaslar_Frame_50
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 500
+      width: 237
+      height: 240
+    spriteID: a9009d0dbef266d4b9d48e00ce034e90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 500}
+  - name: Dusme&Butun_Yaslar_Frame_51
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 748
+      width: 237
+      height: 240
+    spriteID: b4b4fa1788e513b4f9b51c97483991b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 748}
+  - name: Dusme&Butun_Yaslar_Frame_52
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 996
+      width: 237
+      height: 240
+    spriteID: dfa62a6dcdc827f4da8cfda80cd9d6f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 996}
+  - name: Dusme&Butun_Yaslar_Frame_53
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 1244
+      width: 237
+      height: 240
+    spriteID: de402ab8aa196f648886b1e084e51586
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 1244}
+  - name: Dusme&Butun_Yaslar_Frame_54
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 1492
+      width: 237
+      height: 240
+    spriteID: 33d5ede66d6de384292157199dd087ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 1492}
+  - name: Dusme&Butun_Yaslar_Frame_55
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 1740
+      width: 237
+      height: 240
+    spriteID: 5ab6fc011575d8b499e85c238323b66e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 1740}
+  - name: Dusme&Butun_Yaslar_Frame_56
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 1988
+      width: 237
+      height: 240
+    spriteID: 262d2f22deb5ef74fb8a0952e9e212fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 1988}
+  - name: Dusme&Butun_Yaslar_Frame_57
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 2236
+      width: 237
+      height: 240
+    spriteID: bbdf4f295cddec54e930b0643493a719
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 2236}
+  - name: Dusme&Butun_Yaslar_Frame_58
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 2484
+      width: 237
+      height: 240
+    spriteID: 781958917ce879b468998378125c4a05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 2484}
+  - name: Dusme&Butun_Yaslar_Frame_59
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 2732
+      width: 237
+      height: 240
+    spriteID: 2a91be10065b45745b3a719ec244cd04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 2732}
+  - name: Dusme&Butun_Yaslar_Frame_60
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 2980
+      width: 237
+      height: 240
+    spriteID: 36dab0e3b750ad84e843f0239e92da80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 2980}
+  - name: Dusme&Butun_Yaslar_Frame_61
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 3228
+      width: 237
+      height: 240
+    spriteID: 4f8e52644aee8d842bfad581adbbd31c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 3228}
+  - name: Dusme&Butun_Yaslar_Frame_62
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 3476
+      width: 237
+      height: 240
+    spriteID: 613bbab63b28f8343be9d0a93bbfda41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 3476}
+  - name: Dusme&Butun_Yaslar_Frame_63
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 3724
+      width: 237
+      height: 240
+    spriteID: a9a08eaaae0b4eb419938a52452c263b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 747, y: 3724}
+  - name: Dusme&Butun_Yaslar_Frame_64
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 4
+      width: 237
+      height: 240
+    spriteID: 29e5237ab75a6134c87cc585d49c80fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 4}
+  - name: Dusme&Butun_Yaslar_Frame_65
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 252
+      width: 237
+      height: 240
+    spriteID: fd5d9000c275ac0438096b5cd8a21fc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 252}
+  - name: Dusme&Butun_Yaslar_Frame_66
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 500
+      width: 237
+      height: 240
+    spriteID: 70e79b591828c594b84b442fe7869b48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 500}
+  - name: Dusme&Butun_Yaslar_Frame_67
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 748
+      width: 237
+      height: 240
+    spriteID: 26363c5fe7609dc4d9b836a218aee661
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 748}
+  - name: Dusme&Butun_Yaslar_Frame_68
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 996
+      width: 237
+      height: 240
+    spriteID: 25f5282a69a995748b9611f6ba31312c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 996}
+  - name: Dusme&Butun_Yaslar_Frame_69
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 1244
+      width: 237
+      height: 240
+    spriteID: e102ea55acab86c41833d8cf496245fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 1244}
+  - name: Dusme&Butun_Yaslar_Frame_70
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 1492
+      width: 237
+      height: 240
+    spriteID: 657fd38ea743b75489804c481620d8f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 1492}
+  - name: Dusme&Butun_Yaslar_Frame_71
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 1740
+      width: 237
+      height: 240
+    spriteID: c534da480cfb0e540945f5c1e45c02ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 1740}
+  - name: Dusme&Butun_Yaslar_Frame_72
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 1988
+      width: 237
+      height: 240
+    spriteID: 724d896afc17bbf4c8a4d92d35cf9fea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 1988}
+  - name: Dusme&Butun_Yaslar_Frame_73
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 2236
+      width: 237
+      height: 240
+    spriteID: 0d0cef0fe8fdae045a093a3c7f3858c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 2236}
+  - name: Dusme&Butun_Yaslar_Frame_74
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 2484
+      width: 237
+      height: 240
+    spriteID: 7fad1e63ac084e343bb58af5166a1cce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 2484}
+  - name: Dusme&Butun_Yaslar_Frame_75
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 2732
+      width: 237
+      height: 240
+    spriteID: 4abed984407899e4e9d158842fab1ff5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 2732}
+  - name: Dusme&Butun_Yaslar_Frame_76
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 2980
+      width: 237
+      height: 240
+    spriteID: d1f0bf26135e85c4eb5460149c77a1ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 2980}
+  - name: Dusme&Butun_Yaslar_Frame_77
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 3228
+      width: 237
+      height: 240
+    spriteID: b7cd0b4534f9a534aad7047838939935
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 3228}
+  - name: Dusme&Butun_Yaslar_Frame_78
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 3476
+      width: 237
+      height: 240
+    spriteID: 761b99eb832694746bc07bef89a3c8a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 3476}
+  - name: Dusme&Butun_Yaslar_Frame_79
+    originalName: 
+    pivot: {x: 0.34177217, y: -0.13749999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 3724
+      width: 237
+      height: 240
+    spriteID: 7b31faabf4738624183a67f3f97d29ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 3724}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -770608369
+    name: Dusme&Butun_Yaslar
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dusme&Butun_Yaslar_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 5acda022d1f7e584fb6e07fc55f1edb3
+    - name: Dusme&Butun_Yaslar_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 6b055c1c69b2efb4caa43b2acb9356fb
+    - name: Dusme&Butun_Yaslar_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: b628cdc83aae9734a81f67508cf81a36
+    - name: Dusme&Butun_Yaslar_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 2c18579613ac4c943aa46c4e31ed2d89
+    - name: Dusme&Butun_Yaslar_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 0a0db1af0564baf4487b4046a44e8902
+    - name: Dusme&Butun_Yaslar_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: b45c706614ea80847911cd47f3c8127c
+    - name: Dusme&Butun_Yaslar_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 1f18b1bc23b61cc4ea2a42c4d25fb547
+    - name: Dusme&Butun_Yaslar_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 221
+        y: 33
+        width: 243
+        height: 240
+      spriteId: d2021e1bd3f8fe04face532e8f476963
+    - name: Dusme&Butun_Yaslar_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 219
+        y: 33
+        width: 245
+        height: 240
+      spriteId: 9c29287d8913ac64986b20aed241481e
+    - name: Dusme&Butun_Yaslar_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: f8fe57c989e40b449a9e2e359ba69f62
+    - name: Dusme&Butun_Yaslar_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 3579308597b67d040ae4e2af95cac6d0
+    - name: Dusme&Butun_Yaslar_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: add8948dfbb30914b86aebdc59e3ee2a
+    - name: Dusme&Butun_Yaslar_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 04a11cac7c3a81a48935cf3a8a0c30bd
+    - name: Dusme&Butun_Yaslar_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 2594f6e281705ea4b8bd17fb94f275b1
+    - name: Dusme&Butun_Yaslar_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 4b9d9083e03b08e449da0e2e2b279188
+    - name: Dusme&Butun_Yaslar_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 03999ecff8f753945a5f2b3f55c90660
+    - name: Dusme&Butun_Yaslar_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 00d793da97929134ba961cd4d33c2159
+    - name: Dusme&Butun_Yaslar_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 6b8b8a00d7d52314ea7cb4e20a9b1af5
+    - name: Dusme&Butun_Yaslar_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: db9ef0ae2ad5bd3419504181b1b80129
+    - name: Dusme&Butun_Yaslar_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 4eb1060f37b2bc247b390128a91402a8
+    - name: Dusme&Butun_Yaslar_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 4c0585eb158346b419974b9d9f6e01f9
+    - name: Dusme&Butun_Yaslar_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 222355d7820a0a74fbffc66cc29dbc28
+    - name: Dusme&Butun_Yaslar_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: a92c45f0ae43fed4c974fac4269971a9
+    - name: Dusme&Butun_Yaslar_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 97a50cf2b3bc92443be7db5214166316
+    - name: Dusme&Butun_Yaslar_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 3d08e6c2561d3e5408d185e92297f9fa
+    - name: Dusme&Butun_Yaslar_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 85b960c6d81b75a46b354da3b211f122
+    - name: Dusme&Butun_Yaslar_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 1e1ec23af5e5a26499e65c78e420fffc
+    - name: Dusme&Butun_Yaslar_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: c9f9dca35a26ecf45bc3313d6972d58e
+    - name: Dusme&Butun_Yaslar_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: b4939a97bf4fd90438f236380acac83c
+    - name: Dusme&Butun_Yaslar_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 644f62c314eb06b4ab7af93a60b5933a
+    - name: Dusme&Butun_Yaslar_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: a0b847fd525ae9b4dae1df11b55278a8
+    - name: Dusme&Butun_Yaslar_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 807760ac96dfc5844b74d51f4770cce2
+    - name: Dusme&Butun_Yaslar_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: eedb8ddf23bb63a46bb6f682fea8a15e
+    - name: Dusme&Butun_Yaslar_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: d36e22985907af746a2c8091ca21a98d
+    - name: Dusme&Butun_Yaslar_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 777c90fc24364874dbedc7471a059c12
+    - name: Dusme&Butun_Yaslar_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 8114ba0becd69894a848b107570d9bae
+    - name: Dusme&Butun_Yaslar_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: d6be1a9e1db3e98419405b95615665ce
+    - name: Dusme&Butun_Yaslar_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: feb1371e90ba1404581b94cae8a21d36
+    - name: Dusme&Butun_Yaslar_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 493dd5bf6d2ed184d8a225558d0c5f4e
+    - name: Dusme&Butun_Yaslar_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 895c88026da50374e95073da35e305f2
+    - name: Dusme&Butun_Yaslar_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 72a9f665d5c4c1e43ad063e8c1b3b59a
+    - name: Dusme&Butun_Yaslar_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 09244b4d71b5a1f4f810bc4ef6b659bc
+    - name: Dusme&Butun_Yaslar_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: eae2ac5f39b5d874fa2231125f0577ed
+    - name: Dusme&Butun_Yaslar_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: f7588c5b3a45ee94ba4b6eb79ab68462
+    - name: Dusme&Butun_Yaslar_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: c8a5b1e39f756b54885487ccdf6c1360
+    - name: Dusme&Butun_Yaslar_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 936e256c4b539fc4b9443040ef6bec5f
+    - name: Dusme&Butun_Yaslar_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: ef909fea8d2d3a04d99b588dcd589338
+    - name: Dusme&Butun_Yaslar_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 806dd75cde0f953488e77b83b7dafb08
+    - name: Dusme&Butun_Yaslar_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 33279b917e7cc6b40868066a999510d2
+    - name: Dusme&Butun_Yaslar_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: a2c46699ce674fd4cbfef73293d37412
+    - name: Dusme&Butun_Yaslar_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: a9009d0dbef266d4b9d48e00ce034e90
+    - name: Dusme&Butun_Yaslar_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: b4b4fa1788e513b4f9b51c97483991b6
+    - name: Dusme&Butun_Yaslar_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: dfa62a6dcdc827f4da8cfda80cd9d6f6
+    - name: Dusme&Butun_Yaslar_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: de402ab8aa196f648886b1e084e51586
+    - name: Dusme&Butun_Yaslar_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 33d5ede66d6de384292157199dd087ff
+    - name: Dusme&Butun_Yaslar_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 5ab6fc011575d8b499e85c238323b66e
+    - name: Dusme&Butun_Yaslar_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 262d2f22deb5ef74fb8a0952e9e212fe
+    - name: Dusme&Butun_Yaslar_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: bbdf4f295cddec54e930b0643493a719
+    - name: Dusme&Butun_Yaslar_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 781958917ce879b468998378125c4a05
+    - name: Dusme&Butun_Yaslar_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 2a91be10065b45745b3a719ec244cd04
+    - name: Dusme&Butun_Yaslar_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 36dab0e3b750ad84e843f0239e92da80
+    - name: Dusme&Butun_Yaslar_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 4f8e52644aee8d842bfad581adbbd31c
+    - name: Dusme&Butun_Yaslar_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 613bbab63b28f8343be9d0a93bbfda41
+    - name: Dusme&Butun_Yaslar_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: a9a08eaaae0b4eb419938a52452c263b
+    - name: Dusme&Butun_Yaslar_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 29e5237ab75a6134c87cc585d49c80fe
+    - name: Dusme&Butun_Yaslar_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: fd5d9000c275ac0438096b5cd8a21fc0
+    - name: Dusme&Butun_Yaslar_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 70e79b591828c594b84b442fe7869b48
+    - name: Dusme&Butun_Yaslar_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 26363c5fe7609dc4d9b836a218aee661
+    - name: Dusme&Butun_Yaslar_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 25f5282a69a995748b9611f6ba31312c
+    - name: Dusme&Butun_Yaslar_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: e102ea55acab86c41833d8cf496245fa
+    - name: Dusme&Butun_Yaslar_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 657fd38ea743b75489804c481620d8f7
+    - name: Dusme&Butun_Yaslar_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: c534da480cfb0e540945f5c1e45c02ca
+    - name: Dusme&Butun_Yaslar_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 724d896afc17bbf4c8a4d92d35cf9fea
+    - name: Dusme&Butun_Yaslar_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 0d0cef0fe8fdae045a093a3c7f3858c6
+    - name: Dusme&Butun_Yaslar_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 7fad1e63ac084e343bb58af5166a1cce
+    - name: Dusme&Butun_Yaslar_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 4abed984407899e4e9d158842fab1ff5
+    - name: Dusme&Butun_Yaslar_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: d1f0bf26135e85c4eb5460149c77a1ce
+    - name: Dusme&Butun_Yaslar_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: b7cd0b4534f9a534aad7047838939935
+    - name: Dusme&Butun_Yaslar_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 761b99eb832694746bc07bef89a3c8a0
+    - name: Dusme&Butun_Yaslar_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 227
+        y: 33
+        width: 237
+        height: 240
+      spriteId: 7b31faabf4738624183a67f3f97d29ea
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 616, y: 353}

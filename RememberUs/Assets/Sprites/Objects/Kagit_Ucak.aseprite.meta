@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: ef59c6bd17ba52c40aed05c347927634
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Kagit_Ucak_Frame_0
+    originalName: 
+    pivot: {x: 0.44392523, y: -0.23809522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 107
+      height: 126
+    spriteID: 8271f3c65f4d0eb4c967375ba8f2e5cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Kagit_Ucak_Frame_1
+    originalName: 
+    pivot: {x: 0.39898992, y: -0.23809522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 138
+      width: 99
+      height: 126
+    spriteID: 7457fdcc5fd09ee458e54f14e8d52cad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 138}
+  - name: Kagit_Ucak_Frame_2
+    originalName: 
+    pivot: {x: 0.39898992, y: -0.25862068}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 272
+      width: 99
+      height: 116
+    spriteID: 124f1dd92a62ff64ea0b4d78be101b9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 272}
+  - name: Kagit_Ucak_Frame_3
+    originalName: 
+    pivot: {x: 0.39285713, y: -0.4095238}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 119
+      width: 70
+      height: 105
+    spriteID: e5a233abd6bc61b4f93c73f772c0bd5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 119}
+  - name: Kagit_Ucak_Frame_4
+    originalName: 
+    pivot: {x: 0.39285713, y: -0.37383178}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 4
+      width: 70
+      height: 107
+    spriteID: c1359d604368e2c499b9762108ed0769
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 4}
+  - name: Kagit_Ucak_Frame_5
+    originalName: 
+    pivot: {x: 0.47413793, y: -0.34862384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 232
+      width: 58
+      height: 109
+    spriteID: cdfbe2229768b13499376af7b4ef33d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 232}
+  - name: Kagit_Ucak_Frame_6
+    originalName: 
+    pivot: {x: 0.39285713, y: -0.3797468}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 396
+      width: 98
+      height: 79
+    spriteID: b366b6636fd767c45bd7eb926d7912f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 396}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1060087023
+    name: Kagit_Ucak
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Kagit_Ucak_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 45
+        y: 30
+        width: 107
+        height: 126
+      spriteId: 8271f3c65f4d0eb4c967375ba8f2e5cb
+    - name: Kagit_Ucak_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 53
+        y: 30
+        width: 99
+        height: 126
+      spriteId: 7457fdcc5fd09ee458e54f14e8d52cad
+    - name: Kagit_Ucak_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 53
+        y: 30
+        width: 99
+        height: 116
+      spriteId: 124f1dd92a62ff64ea0b4d78be101b9b
+    - name: Kagit_Ucak_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 65
+        y: 43
+        width: 70
+        height: 105
+      spriteId: e5a233abd6bc61b4f93c73f772c0bd5c
+    - name: Kagit_Ucak_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 65
+        y: 40
+        width: 70
+        height: 107
+      spriteId: c1359d604368e2c499b9762108ed0769
+    - name: Kagit_Ucak_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 65
+        y: 38
+        width: 58
+        height: 109
+      spriteId: cdfbe2229768b13499376af7b4ef33d6
+    - name: Kagit_Ucak_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 54
+        y: 30
+        width: 98
+        height: 79
+      spriteId: b366b6636fd767c45bd7eb926d7912f2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 185, y: 185}
