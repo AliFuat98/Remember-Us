@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 037187953dfdae14ba73f17235f06c35, type: 3}
-  m_Name: 1_Doctor_DialogueSO
+  m_Name: 1_PlayerInnerVoiceDialogueSO
   m_EditorClassIdentifier: 
   sentences:
-  - "doktor bir \u015Fey s\xF6yler 1"
-  - "doktor bir \u015Fey s\xF6yler 2"
-  - "doktor bir \u015Fey s\xF6yler 3"
-  speakerName: Doctor
-  image: {fileID: -7496284835037457052, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
-  speakerNameColor: {r: 0.25087208, g: 0.98490566, b: 0.27526408, a: 1}
+  - "dean i\xE7 ses 1"
+  - "dean i\xE7 ses 2"
+  - "dean i\xE7 ses 3"
+  speakerName: Dean
+  image: {fileID: 0}
+  speakerNameColor: {r: 0.19896747, g: 0.34210718, b: 0.9169811, a: 1}

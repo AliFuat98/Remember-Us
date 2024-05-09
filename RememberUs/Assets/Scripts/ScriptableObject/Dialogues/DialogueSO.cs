@@ -8,4 +8,5 @@ public class DialogueSO : ScriptableObject {
 
   public string speakerName;
   public Sprite image;
+  public Color speakerNameColor = Color.white;
 }

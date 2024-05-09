@@ -17,3 +17,4 @@ MonoBehaviour:
   - "marta bir \u015Fey s\xF6yler 5"
   speakerName: Marta
   image: {fileID: 4900978611071211088, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
+  speakerNameColor: {r: 1, g: 0.32156864, b: 0.8980392, a: 1}

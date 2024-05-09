@@ -17,3 +17,4 @@ MonoBehaviour:
   - "doctor bir \u015Fey s\xF6yler 7"
   speakerName: Doctor
   image: {fileID: -7496284835037457052, guid: ea6a18b1f3cb106469e3fb1232aa3c63, type: 3}
+  speakerNameColor: {r: 0.2509804, g: 0.9843137, b: 0.27450982, a: 1}

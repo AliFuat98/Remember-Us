@@ -18,5 +18,6 @@ MonoBehaviour:
   - "Marta konu\u015Fur 3"
   - "Marta konu\u015Fur 4"
   - "Marta konu\u015Fur 5"
-  speakerName: 
+  speakerName: Marta
   image: {fileID: 0}
+  speakerNameColor: {r: 1, g: 0.3226415, b: 0.8970254, a: 1}
