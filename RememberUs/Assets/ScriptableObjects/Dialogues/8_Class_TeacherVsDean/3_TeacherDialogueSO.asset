@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037187953dfdae14ba73f17235f06c35, type: 3}
+  m_Name: 3_TeacherDialogueSO
+  m_EditorClassIdentifier: 
+  sentences:
+  - "Do\u011Frular 1"
+  - "yeni konu anlat\u0131r 1"
+  - "yeni konu anlat\u0131r 2"
+  speakerName: Teacher
+  image: {fileID: 0}
+  speakerNameColor: {r: 0.91764706, g: 0.32215497, b: 0.19999996, a: 1}
